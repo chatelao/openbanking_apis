@@ -1,8 +1,8 @@
 language: node_js
-node_js:
-  - 0.8
+# node_js:
+#   - 0.8
 
 # 'npm test' runs 'grunt test'
 before_script:
-  - npm install --save-dev redoc-cli
+  - npm install -g redoc-cli
 
