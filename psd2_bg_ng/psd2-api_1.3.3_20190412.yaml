@@ -10270,7 +10270,6 @@ components:
       example: "99391c7e-ad88-49ec-a2ad-99ddcb1f7721"
       schema:
         type: string
-        format: uuid
 
 
     Digest:
@@ -10611,8 +10610,6 @@ components:
         In case of an installation identification this ID need to be unaltered until removal from device.
       schema:
         type: string
-        format: uuid
-      required: false
       example: "99435c7e-ad88-49ec-a2ad-99ddcb1f5555"
 
     PSU-Geo-Location:
@@ -10741,7 +10738,6 @@ components:
       example: "99391c7e-ad88-49ec-a2ad-99ddcb1f7721"
       schema:
         type: string
-        format: uuid
 
     ASPSP-SCA-Approach:
       description: |
