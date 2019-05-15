@@ -4200,7 +4200,6 @@ components:
           description: A collection of strings as challenge data
         imageLink:
           type: string
-          format: url
           description: A link where the ASPSP will provides the challenge image for the TPP.
         otpMaxLength:
           type: integer
@@ -10766,7 +10765,6 @@ components:
         Location of the created resource.
       schema:
         type: string
-        format: url
       required: false
 
   responses:
